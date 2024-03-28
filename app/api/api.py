@@ -57,6 +57,7 @@ def read_result(user_id: int):
 
     with open('data/results.json') as stream:
         results = json.load(stream)
+        print(result) #just to test pixees
 
     with open('data/users.json') as stream:
         users = json.load(stream)
